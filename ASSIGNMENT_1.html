@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    
+
+<script>
+
+
+let E = parseInt(prompt("Enter English Marks","0"));
+let M = parseInt(prompt("Enter Maths Marks","0"));
+let P = parseInt(prompt("Enter Physics Marks","0"));
+let C = parseInt(prompt("Enter Chemistry Marks","0"));
+let U = parseInt(prompt("Enter Urdu Marks","0"));
+
+let TM = 500;
+
+document.write("English => " +E +"<br />");
+document.write("Maths => " +M +"<br />");
+document.write("Physics => " +P +"<br />");
+document.write("Chemistry => " +C +"<br />");
+document.write("Urdu => " +U +"<br />");
+
+
+
+    let total = E+M+P+C+U;
+    let per = (total/TM*100).toFixed(2);
+
+    document.write("Total => "+total +"<br />");
+    document.write("Percentage => "+per +" % <br />");
+
+
+    if(per>=80)
+    {
+        document.write("Grade A+");
+    }
+    else if(per>=70)
+    {
+        document.write("Grade A");
+    }
+    else if(per>=60)
+    {
+        document.write("Grade B");
+    }
+    else if(per>=50)
+    {
+        document.write("Grade C");
+    }
+
+else{
+    document.write("NIKAL LAUDEY PEHLI FURSAT M NIKAL GANDU !!");
+}
+
+
+
+</script>
+
+
+</body>
+</html>
