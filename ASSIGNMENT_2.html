@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    
+
+<script>
+//Task 1
+    // let a = prompt("Enter your name");
+
+    // alert("Hi "+a);
+//Task 1 End
+
+//Task 2
+
+    // let table = prompt("Enter any Table","5");
+    // for(i = 1 ; i<=10 ; i++)
+    // {
+    //     document.write(table+" x "+i+" = "+i*table+"<br />");
+    // }
+
+//Task 2 End
+
+
+//Task 3
+
+    // let city = prompt("Enter Your City");
+
+    // if(city=="Karachi" || city == "karachi" || city == "KARACHI") 
+    // {
+    //     alert("Welcome to the city of lights");
+    // }
+    // else{
+    //     alert("Karachi ese likh");
+    // }
+
+//Task 3 END
+
+
+// Task 4     =================
+
+        // let gender=prompt("Enter Your Gender");
+
+        // if(gender == "Male")
+        // {
+        //     alert("Good Morning Sir !!");
+        // }
+        // else if(gender == "Female")
+        // {
+        //     alert(" Good Morning Ma'am ");
+        // }
+        // else
+        // {
+        //     alert("*****Enter your gender****");
+        // }
+
+
+// Task 4 End =================
+
+
+
+// Task 5     =================
+
+// let signal = prompt("Please Enter traffic light color any one");
+
+//         if(signal == "red")
+//         {
+//             alert("Vehicles must Stop");
+//         }
+//         else if(signal == "yellow")
+//         {
+//             alert("vehicles should get ready to move now");
+//         }
+//         else if(signal == "green")
+//         {
+//             alert("vehicles can move now !!");
+//         }
+//         else{
+//             alert("Enter color from Any 3 of them , 'red' , 'yellow' , 'green'");
+//         }
+
+// Task 5 End =================
+
+
+//TASK 6
+
+
+    // let max = prompt("Enter Max Age");
+    // let current = prompt("Enter your current Age");
+
+    // if(current<=max)
+    // {
+    //     alert("You are welcome !!");
+    // }
+    // else
+    // {
+    //     alert("Get Lost !! ");
+    // }
+
+// TASK 6 END
+
+//TASK 7
+
+    // let fuel = prompt("Input remaining fuel in your Car");
+    // let a = parseFloat(fuel);
+
+
+    // if(a < "0.25")
+    // {
+    // alert("Please Refill your Car");
+    // }
+    // alert(a);
+
+//TASK 7 END 
+
+
+// TASK 9 =========================================================
+
+// let M = parseInt(prompt("Enter Maths Marks","0"));
+// let P = parseInt(prompt("Enter Physics Marks","0"));
+// let C = parseInt(prompt("Enter Chemistry Marks","0"));
+
+
+// let TM = 300;
+
+//     let total = M+P+C;
+//     let per = (total/TM*100).toFixed(2);
+
+//     document.write("Total Marks : "+TM +"<br />");
+//     document.write("Marks Obtained : "+total +"<br />");
+//     document.write("Percentage : "+per +" % <br />");
+
+
+//     if(per>=80)
+//     {
+//         document.write("Grade A+ <br />");
+//         document.write("Remarks : Excellent");
+
+//     }
+//     else if(per>=70)
+//     {
+//         document.write("Grade : A <br />");
+//         document.write("Remarks : GOOD");
+
+//     }
+//     else if(per>=60)
+//     {
+//         document.write("Grade : B <br />");
+//         document.write("Remarks : You need To Improve");
+//     }
+
+// else{
+//     document.write("YOU ARE FAIL !!");
+// }
+
+// TASK 9 END ==============================================
+
+// TASK 10 ===============================================
+
+
+    // let n1 = prompt("NAME OF ITEM 1");
+    // let p1 = parseInt(prompt("PRICE OF ITEM 1","0"));
+    // let q1 = parseInt(prompt("QUANTITY OF ITEM 1","1"));
+
+    // let n2 = prompt("NAME OF ITEM 2");
+    // let p2 = parseInt(prompt("PRICE OF ITEM 2","0 PKR"));
+    // let q2 = parseInt(prompt("QUANTITY OF ITEM 2","1"));
+
+    // let DC = parseInt(prompt("Shipping Charges","0"));
+
+    // let total_1 = p1*q1;
+    // let total_2 = p2*q2;
+
+    // let T = total_1 + total_2 + DC;
+    // let discount = T-(T*10/100);
+
+
+    // if(isNaN(T)){
+    //     alert("Please input Feild");
+    // }
+    // else
+    // {
+
+    //     document.write(" Price of " +n1 + " is " +p1 +"<br />");
+    //     document.write(" Quantity of " +n1 + " is " +q1+"<br /> <br />");
+
+
+
+    //     document.write(" Price of " +n2 + " is " +p2 +"<br />");
+    //     document.write(" Quantity of " +n2 + " is " +q2 +"<br /><br />");
+
+
+    //     document.write("Shipping Charges : "+DC +"<br />");
+    //     document.write("Total cost of your order is "+T +"<br />");
+    //     if(T>2000)
+    //     {
+    //         document.write("Discounted Price "+discount);
+    //     }
+
+    // }
+
+// TASK 10 END ===============================================
+
+
+//TASK 11 =======================================================
+
+
+    let num = 5;
+    let a = prompt("Guess the secret number ranging from 1 to 10")
+
+    if(a == num)
+    {
+        alert("Bingo ! Corect answer");
+    }
+    else if(a+1==4)
+    {
+        alert("You are Close Enough");
+    }
+    else if(a-1==6)
+    {
+        alert("You are Close Enough");
+    }
+
+    else
+    {
+        alert("Wrong !!!");
+    }
+
+// TASK 11 END ============================================================
+
+
+// TASK 12 =============================================================
+
+
+    // let num = prompt("Input any number","0");
+
+    // if(num % 3 == 0)
+    // {
+    //     alert(num+" is Divisible by 3");
+    // }
+    // else
+    // {
+    //     alert(num+" is not divisible by 3")
+    // }
+
+
+// TASK 12 END=============================================================
+
+
+// TASK 13 =============================================================
+
+    // let team1 = prompt("Name of team 1");
+    // let Score1 = prompt("Score of team 1","0");
+
+
+    // let team2 = prompt("Name of team 2");
+    // let Score2 = prompt("Score of team 2","0");
+
+
+    // if(Score1>Score2)
+    // {
+    //     alert(team1+" have won the game ")
+    // }
+    // else if(Score2>Score1)
+    // {
+    //     alert(team2+" have won the game")
+    // }
+    // else
+    // {
+    //     alert("Match tie");
+    // }
+
+// TASK 13 END =============================================================
+
+// TASK 14 =============================================================
+
+        // let p = prompt("String or any number");
+
+        // if(p)
+        // {
+        //     if(isNaN(p))
+        //     {
+        //         alert(p+" is a string");
+        //     }
+        //     else
+        //     {
+        //         alert(p+" is  number");
+        //     }
+        // }
+
+
+// TASK 14 END =============================================================
+
+
+// TASK 15  =============================================================
+
+    // let num = prompt("Enter any Number");
+
+    // if(num%2==0)
+    // {
+    //     alert(num+" is Even Number");
+    // }
+    // else{
+    //     alert(num+" is odd number");
+    // }
+
+// TASK 15 END =============================================================
+
+
+// Task 16 ====================================================================
+
+        // var p =prompt("Input Temperature");
+        //     if(p)
+        //     {
+        //         if(p>40)
+        //         {
+        //             alert("It is too hot outside.");
+        //         }
+        //         else if(p>30)
+        //         {
+        //             alert("The Weather today is Normal.");
+        //         }
+        //         else if(p>20)
+        //         {
+        //             alert("Today's weather is Cool !!");
+        //         }
+        //         else if(p>10)
+        //         {
+        //             alert("OMG !! Today's weather is so Cool.")
+        //         }
+        //     }    
+        //     else{
+        //         alert("please input temperature")
+        //     }
+
+// Task 16 End ========================================================
+
+
+// Task 17 ============================================================
+ 
+
+        // var a = parseInt(prompt("Enter Number 1"));
+        // var b = parseInt(prompt("Enter Number 2"));
+        // var c = prompt("Enter any one Operands from +,-,*,/");
+        // if(a)
+        // {
+        //     if(c == "+")
+        //     {
+        //         var m = a+b;
+        //         alert(a+" + "+b+" = "+m);
+        //     }
+        //     else if(c == "-")
+        //     {
+        //         var m = a-b;
+        //         alert(a+" - "+b+" = "+m);
+        //     }
+
+        //     else if(c == "/")
+        //     {
+        //         var m = a/b;
+        //         alert(a+" / "+b+" = "+m);
+        //     }
+
+        //     else if(c == "*")
+        //     {
+        //         var m = a*b;
+        //         alert(a+" x "+b+" = "+m);
+        //     }
+        // }
+
+
+// Task 17 End =========================================================
+
+
+// Task 18 ===========================================================
+
+    // var d = prompt("Please Input Days");
+
+    // if(d)
+    // {
+    //     if(d == "Monday")
+    //     {
+    //         alert("It's a weekday");
+    //     }
+    //     else if(d == "Tuesday")
+    //     {
+    //         alert("It's a weekday");
+    //     }
+        
+    //     else if(d == "Wednesday")
+    //     {
+    //         alert("It's a weekday");
+    //     }
+
+    //     else if(d == "Thursday")
+    //     {
+    //         alert("It's a weekday");
+    //     }
+
+    //     else if(d == "Friday")
+    //     {
+    //         alert("It's a weekday");
+    //     }
+
+    //     else if(d == "Saturday")
+    //     {
+    //         alert("It's a Weekend !!");
+    //     }
+    //     else if(d == "Sunday")
+    //     {
+    //         alert("Yay ! It's a Holiday");
+    //     }
+    // }
+    // else
+    // {
+    //     alert("ERROR !!")
+    // }
+
+
+// Task 18 E N D =======================================================
+
+// Task 19  =============================================================
+
+        // var s=prompt("Input Score");
+
+        // if(s)
+        // {
+        //     if(s>50)
+        //     {
+        //         alert("You are passed.");
+        //     }
+        //     else{
+        //         alert("Try Again");
+        //     }
+        // }
+        // else{
+        //     alert("Please Input Score");
+        // }
+
+
+// Task 19 E N D ===========================================================
+
+// Task 20 =================================================================
+
+        // var a = prompt("Enter Number one");
+        // var b = prompt("Enter Number two");
+
+        // if(a)
+        // {
+        //     if(a>b)
+        //     {
+        //         alert("The Greater number of "+a+" and "+b + " is "+a);
+        //     }
+
+        //     else if(b>a)
+        //     {
+        //         alert("The Greater number of "+a+" and "+b + " is "+b);
+        //     }
+
+        //     else if(a == b)
+        //     {
+        //         alert("Both Numbers Are Equal");
+        //     }
+        // }
+
+
+// Task 20 E N D ===========================================================
+
+
+// Task 21 ==================================================================
+
+
+        // var t = prompt("Enter Code to translate Hello World , ch,ru,fe");
+        // if(t)
+        // {
+        //     if(t=="ch"){alert("你好世界 ,,,  Hello world in Chinese");}
+        //     else if(t=="ru"){alert("Здравствуй, мир ,,,  Hello World In Russian");}
+        //     else if(t=="fe"){alert("Bonjour monde ,, Hello world in French");}
+        //     else{ alert("Enter from any one of them ch,ru,fe"); }
+        // }
+        // else{
+        //     alert("Input Language Code");
+        // }
+
+
+
+// Task 21 E N D ====================================================
+
+// Task 22  =========================================================
+
+        // var n =prompt("Enter any Number");
+
+        // if(n)
+        // {
+        //     if(n>=0)
+        //     {
+        //         alert("number is positive");
+        //     }
+        //     else if(n<0)
+        //     {
+        //         alert("Number is negative");
+        //     }
+        // }
+
+
+// Task 22 E N D ===================================================
+
+// Task 23 =========================================================
+
+    // var a =prompt("Input any Number");
+    // var b=prompt("Input any noun");
+    // if(isNaN(b))
+    // {
+    //     alert(a+" "+b);
+    // }
+
+// Task 23 E N D ====================================================
+
+
+
+
+
+
+
+</script>
+
+
+</body>
+</html>
